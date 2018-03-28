@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 from math import log
 class WoE:
-    def __init__(self, disc, cont):
+    def __init__(self, disc=None, cont=None):
         self.maps = None
         self.disc = disc
         self.cont = cont
