@@ -1,0 +1,16 @@
+El objetivo es pronosticar las ventas del 12avo mes desde que un producto es lanzado
+(variable target) mediante las características del producto. Cada fila representa un 
+producto, las variables con prefijo c_ son categóricas y con prefijo v_ son continuas
+(en caso de ser binaria una categórica, representa la ausencia/presencia de una 
+característica). Adicionalmente se incluyen los primeros 6 meses de ventas 
+desde que el producto fue puesto en el mercado.
+
+El archivo train.csv contiene los datos de entrenamiento.
+
+El archivo test.csv contiene los datos de validación para calificación, 
+el entregable debe ser un archivo en formato txt que contenga únicamente 
+UNA columna con su pronóstico.
+
+Se auditará código fuente y se harán preguntas al respecto de la solución, las 
+respuestas a los cuestionamientos incidirán directamente en su calificación.
+ 
